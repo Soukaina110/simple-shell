@@ -172,7 +172,7 @@ display_environment();
 else
 {
 if (strchr(cmd, ';') != NULL || strchr(cmd, '|') != NULL ||
-		strchr(cmd, '<') != NULL || strchr(cmd, '>') != NULL)
+strchr(cmd, '<') != NULL || strchr(cmd, '>') != NULL)
 {
 printf("Error: Command contains special characters or advanced features.\n");
 continue;
